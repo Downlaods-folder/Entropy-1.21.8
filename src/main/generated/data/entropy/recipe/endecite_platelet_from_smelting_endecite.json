@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 250,
+  "experience": 2.5,
+  "group": "endecite",
+  "ingredient": "entropy:endecite",
+  "result": {
+    "id": "entropy:endecite_platelet"
+  }
+}

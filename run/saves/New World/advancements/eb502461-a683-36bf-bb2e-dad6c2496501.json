@@ -1,0 +1,45 @@
+{
+  "entropy:recipes/misc/endecite_ingot_from_smelting_endecite": {
+    "criteria": {
+      "has_endecite": "2025-07-29 14:44:50 -0400"
+    },
+    "done": true
+  },
+  "entropy:recipes/misc/endecite_ingot_from_blasting_endecite": {
+    "criteria": {
+      "has_endecite": "2025-07-29 14:44:50 -0400"
+    },
+    "done": true
+  },
+  "entropy:recipes/decorations/endelight": {
+    "criteria": {
+      "has_endelight_bulb": "2025-07-29 14:44:54 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-07-29 14:44:50 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2025-07-29 14:45:56 -0400"
+    },
+    "done": true
+  },
+  "entropy:recipes/misc/endecite_ingot_from_blasting_endecite_shard": {
+    "criteria": {
+      "has_endecite_shard": "2025-07-29 14:45:08 -0400"
+    },
+    "done": true
+  },
+  "entropy:recipes/misc/endecite_ingot_from_smelting_endecite_shard": {
+    "criteria": {
+      "has_endecite_shard": "2025-07-29 14:45:08 -0400"
+    },
+    "done": true
+  },
+  "DataVersion": 4440
+}

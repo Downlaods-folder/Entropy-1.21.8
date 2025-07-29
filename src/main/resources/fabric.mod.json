@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "entropy",
+  "version": "${version}",
+
+  "name": "Entropy",
+  "description": "A mod of randomness and uncertainty",
+  "authors": [
+    "Downlaods!"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "MIT",
+  "icon": "assets/entropy/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": ["def.downlaods.entropy.datagen.EntropyDataGenerator"],
+    "client": ["def.downlaods.entropy.client.EntropyClient"],
+    "main": ["def.downlaods.entropy.Entropy"]
+  },
+
+  "mixins": [
+    "entropy.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "${minecraft_version}",
+    "fabric": "*",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+
+  "suggests": {
+    "another-mod": "*"
+  }
+}

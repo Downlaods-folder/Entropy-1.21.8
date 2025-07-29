@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 125,
+  "experience": 2.5,
+  "group": "endecite",
+  "ingredient": "entropy:endecite_shard",
+  "result": {
+    "id": "entropy:endecite_platelet"
+  }
+}

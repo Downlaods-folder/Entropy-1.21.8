@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_endecite": {
+      "conditions": {
+        "items": [
+          {
+            "items": "entropy:endecite"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "entropy:endecite_platelet_from_smelting_endecite"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_endecite"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "entropy:endecite_platelet_from_smelting_endecite"
+    ]
+  }
+}
