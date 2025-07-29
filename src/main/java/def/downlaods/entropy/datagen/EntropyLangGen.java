@@ -1,6 +1,7 @@
 package def.downlaods.entropy.datagen;
 
 import def.downlaods.entropy.registry.EntropyBlocks;
+import def.downlaods.entropy.registry.EntropyGroups;
 import def.downlaods.entropy.registry.EntropyItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricLanguageProvider;
@@ -18,6 +19,8 @@ public class EntropyLangGen extends FabricLanguageProvider {
         builder.add(EntropyItems.ENDECITE_SHARD,"Endecite Shard");
         builder.add(EntropyItems.ENDECITE_PLATELET,"Endecite Platelet");
         builder.add(EntropyItems.ENDELIGHT_BULB,"Endelight Bulb");
+        builder.add(EntropyItems.BORNITE,"Bornite");
+        builder.add(EntropyItems.ROSE_QUARTZ,"Rose Quartz");
 
         builder.add(EntropyBlocks.END_SAND,"End Sand");
         builder.add(EntropyBlocks.INFUSED_END_SAND,"Infused End Sand");
@@ -25,5 +28,8 @@ public class EntropyLangGen extends FabricLanguageProvider {
 
         builder.add(EntropyBlocks.ENDECITE,"Endecite");
         builder.add(EntropyBlocks.ENDELIGHT,"Endelight");
+
+        builder.add("itemGroup.entropy.entropy_items","Entropy Items Group");
+        builder.add("itemGroup.entropy.entropy_blocks","Entropy Blocks Group");
     }
 }

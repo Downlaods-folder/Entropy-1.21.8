@@ -1,6 +1,7 @@
 package def.downlaods.entropy;
 
 import def.downlaods.entropy.registry.EntropyBlocks;
+import def.downlaods.entropy.registry.EntropyGroups;
 import def.downlaods.entropy.registry.EntropyItems;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
@@ -15,6 +16,7 @@ public class Entropy implements ModInitializer {
     public void onInitialize() {
         EntropyItems.registerModItems();
         EntropyBlocks.registerModBlocks();
+        EntropyGroups.registerItemGroups();
 
         LOGGER.info("Mod Implemented :D");
     }

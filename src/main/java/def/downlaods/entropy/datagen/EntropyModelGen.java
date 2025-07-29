@@ -28,5 +28,7 @@ public class EntropyModelGen extends FabricModelProvider {
         itemModelGenerator.register(EntropyItems.ENDECITE_SHARD, Models.GENERATED);
         itemModelGenerator.register(EntropyItems.ENDECITE_PLATELET, Models.GENERATED);
         itemModelGenerator.register(EntropyItems.ENDELIGHT_BULB, Models.GENERATED);
+        itemModelGenerator.register(EntropyItems.BORNITE, Models.GENERATED);
+        itemModelGenerator.register(EntropyItems.ROSE_QUARTZ, Models.GENERATED);
     }
 }

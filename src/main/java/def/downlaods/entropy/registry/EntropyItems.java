@@ -16,6 +16,8 @@ public class EntropyItems {
     public static final Item ENDECITE_SHARD = registerItem("endecite_shard", Item::new);
     public static final Item ENDECITE_PLATELET = registerItem("endecite_platelet", Item::new);
     public static final Item ENDELIGHT_BULB = registerItem("endelight_bulb", Item::new);
+    public static final Item BORNITE = registerItem("bornite", Item::new);
+    public static final Item ROSE_QUARTZ = registerItem("rose_quartz", Item::new);
 
     private static Item registerItem(String name, Function<Item.Settings, Item> function) {
         return Registry.register(Registries.ITEM, Identifier.of(Entropy.MOD_ID, name),
