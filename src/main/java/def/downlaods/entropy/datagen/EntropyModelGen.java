@@ -21,6 +21,8 @@ public class EntropyModelGen extends FabricModelProvider {
 
         blockStateModelGenerator.registerSimpleCubeAll(EntropyBlocks.ENDECITE);
         blockStateModelGenerator.registerSimpleCubeAll(EntropyBlocks.ENDELIGHT);
+
+        //using json to add EntropyBlocks.INFUSIONBLOCK
     }
 
     @Override

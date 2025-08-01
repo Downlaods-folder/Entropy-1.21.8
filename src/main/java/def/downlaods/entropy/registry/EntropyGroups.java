@@ -36,6 +36,8 @@ public class EntropyGroups {
 
                         entries.add(EntropyBlocks.ENDECITE);
                         entries.add(EntropyBlocks.ENDELIGHT);
+
+                        entries.add(EntropyBlocks.INFUSION_BLOCK);
                     }).build());
 
     public static void registerItemGroups() {

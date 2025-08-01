@@ -29,6 +29,8 @@ public class EntropyLangGen extends FabricLanguageProvider {
         builder.add(EntropyBlocks.ENDECITE,"Endecite");
         builder.add(EntropyBlocks.ENDELIGHT,"Endelight");
 
+        builder.add(EntropyBlocks.INFUSION_BLOCK,"Infusion Block");
+
         builder.add("itemGroup.entropy.entropy_items","Entropy Items Group");
         builder.add("itemGroup.entropy.entropy_blocks","Entropy Blocks Group");
     }
