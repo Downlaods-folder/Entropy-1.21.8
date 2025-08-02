@@ -9,7 +9,6 @@ import net.minecraft.util.Identifier;
 
 public class EntropyTags {
     public static class Blocks {
-        // nothing here yet
 
         private static TagKey<Block> createTag(String name) {
             return TagKey.of(RegistryKeys.BLOCK, Identifier.of(Entropy.MOD_ID, name));
@@ -17,7 +16,7 @@ public class EntropyTags {
     }
 
     public static class Items {
-        // nothing here yet
+        public static final TagKey<Item> INFUSION_FUEL = createTag("infusion_fuel");
 
         private static TagKey<Item> createTag(String name) {
             return TagKey.of(RegistryKeys.ITEM, Identifier.of(Entropy.MOD_ID, name));

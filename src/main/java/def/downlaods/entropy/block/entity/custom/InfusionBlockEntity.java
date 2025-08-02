@@ -35,7 +35,7 @@ import org.jetbrains.annotations.Nullable;
 import java.util.Optional;
 
 public class InfusionBlockEntity extends BlockEntity implements ExtendedScreenHandlerFactory<BlockPos>, ImplementedInventory {
-    private final DefaultedList<ItemStack> inventory = DefaultedList.ofSize(2, ItemStack.EMPTY);
+    private final DefaultedList<ItemStack> inventory = DefaultedList.ofSize(7, ItemStack.EMPTY);
 
     private static final int INPUT_SLOT = 0;
     private static final int OUTPUT_SLOT = 1;
@@ -66,7 +66,7 @@ public class InfusionBlockEntity extends BlockEntity implements ExtendedScreenHa
 
             @Override
             public int size() {
-                return 2;
+                return 7;
             }
         };
     }

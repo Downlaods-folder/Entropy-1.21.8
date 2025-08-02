@@ -11,5 +11,6 @@ public class EntropyDataGenerator implements DataGeneratorEntrypoint {
         pack.addProvider(EntropyRecipeGen::new);
         pack.addProvider(EntropyBlockLootTableGen::new);
         pack.addProvider(EntropyBlockTagGen::new);
+        pack.addProvider(EntropyItemTagGen::new);
     }
 }
